@@ -36,6 +36,14 @@ export default {
 </script>
 
 <style>
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +59,8 @@ export default {
   background-color: rgb(236, 235, 235);
   margin: -1.5em -1em 1.5em -1em;
   padding: 20px;
+  -webkit-animation: fadeIn 1.2s;
+  animation: fadeIn 1.2s;
 }
 
 #nav a {

@@ -106,6 +106,7 @@ export default {
     padding: 1em;
     border: 1px solid rgb(158, 158, 158);
     border-radius: 8px;
+    margin-bottom: 2em;
 }
 
 input[type=text] {

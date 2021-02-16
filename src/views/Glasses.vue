@@ -165,7 +165,7 @@ body {
 }
 
 #glasses-div {
-    width: 20vw;
+    width: 25vw;
     padding: 1em;
     margin: 1em;
     border-radius: 5px;
